@@ -11,8 +11,9 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @users.each do |user| %>
+  <tbody> 
+<% binding.pry %>
+    <% @users.each do |user| %>  
       <tr>
         <td><%= user.name %></td>
         <td><%= user.age %></td>
