@@ -33,4 +33,7 @@ end
   gem 'pry-doc'
   gem 'pry-nav'
   gem 'pry-remote' 
-  gem 'sqlite3', '1.3.7'
+  gem 'sqlite3', '1.3.7' 
+
+gem 'bcrypt-ruby', '3.0.1'
+
